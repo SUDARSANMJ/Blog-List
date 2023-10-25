@@ -4,15 +4,15 @@ import BlogItem from '../BlogItem'
 import './index.css'
 
 const BlogList = props => {
-  const {blogList} = props
+  const {blogsList} = props
 
   return (
     <ul className="blog-list">
-      {blogList.map(eachBlog => (
+      {blogsList.map(eachBlog => (
         <BlogItem key={eachBlog.id} blogDetails={eachBlog} />
       ))}
     </ul>
   )
 }
 
-export default BlogItem
+export default BlogList

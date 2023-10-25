@@ -1,6 +1,7 @@
+import BlogList from '../BlogList'
+import UserInfo from '../UserInfo'
+
 import './index.css'
-import {userInfo} from 'os'
-import BlogItem from '../BlogItem'
 
 const blogsList = [
   {

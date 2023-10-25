@@ -9,7 +9,7 @@ const UserInfo = () => (
       alt="profile"
     />
     <h1 className="user-name">Wade Warren</h1>
-    <p className="user-designation">Software developer at uk</p>
+    <p className="user-designation">Software developer at UK</p>
   </div>
 )
 
